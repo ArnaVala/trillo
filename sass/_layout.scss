@@ -28,11 +28,19 @@
     background-color: var(--color-grey-dark-1);
     //flex: flexgrow flexshrink flexbasis
     flex: 0 0 18%;
+
+    display: flex;
+    //change flex direction for axis
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hotel-view {
     background-color: #fff;
+
+
     background-color: orangered;
+    height: 80rem;
 
     //Want to make it grow as much as it can/fill
     flex: 1;
